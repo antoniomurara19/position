@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inicio, .fim, .dupla{
+    width: 95%;
+    height: 15%;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+.um, .dois, .tres, .seis, .sete, .oito{
+    border: 4px solid black;
+    width: 30%;
+    padding: 2.3rem;
+    background-color: darkgreen;
+    border-radius: 1rem;
+    text-align: center;
+    font-weight: 1000;
+    font-size: 20px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+.quatro, .cinco{
+    border: 4px solid black;
+    width: 95%;
+    height: 15%;
+    margin: 2rem auto;
+    padding: 2.3rem;
+    background-color: darkgreen;
+    text-align: center;
+    font-weight: 1000;
+    font-size: 20px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+.nove, .dez{
+    border: 4px solid black;
+    width: 48%;
+    height: 15%;
+    padding: 2.3rem;
+    background-color: darkgreen;
+    text-align: center;
+    font-weight: 1000;
+    font-size: 20px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.a:hover{
+    background-color: darkblue;
+    transition: .3s linear;
+    cursor: pointer;
+}
